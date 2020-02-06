@@ -1,2 +1,3 @@
 # kakaoclone
- repository for kakao clone coding
+
+repository for kakao desktop clone coding
