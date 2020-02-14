@@ -5,9 +5,9 @@
   margin-bottom: 30px;
 }
 
-.header .header_title {
-  font-size: 25px;
-  font-weight: 700;
+.header .header__title {
+  font-size: 24px;
+  font-weight: 600;
 }
 .header .header__icon {
   font-size: 20px;

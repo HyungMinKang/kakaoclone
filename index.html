@@ -14,21 +14,22 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
+    <!-- 상태 창 =시간 소리 볼륨 와이파이 베터리 표시 -->
     <div class="status-bar">
-      <div class="status-bar__column">
+      <div class="status-bar__column"> <!--왼쪽 정렬될 상태창-->
         <span class="status-bar__clock">13:54</span>
       </div>
-      <div class="status-bar__column">
+      <div class="status-bar__column"><!--오른쪽 정렬될 상태창-->
         <i class="fas fa-clock"></i>
         <i class="fas fa-volume-mute"></i>
         <i class="fas fa-wifi"></i>
-        <span class="status-bar__battery-level">75%</span>
-        <i class="fas fa-battery-three-quarters"></i>
+        <span class="status-bar__battery-level">100%</span>
+        <i class="fas fa-battery-full"></i>
       </div>
     </div>
     <header class="header">
       <div class="header__header-column">
-        <h1 class="header_title">Chats</h1>
+        <h1 class="header__title">Chats</h1>
       </div>
       <div class="header__header-column">
         <span class="header__icon"><i class="fas fa-search"></i> </span>
@@ -88,5 +89,8 @@
         </li>
       </ul>
     </nav>
+    <div class="bigScreen">
+      <span class="bigScreen__text">Please make your screen small </span>
+    </div>
   </body>
 </html>
