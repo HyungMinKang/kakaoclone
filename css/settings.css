@@ -10,8 +10,13 @@
 }
 
 .settings__setting .settings__title {
-  font-size: 22px;
+  font-size: 15px;
   font-weight: 300;
+}
+.settings__setting .settings__timestamp {
+  float: right;
+  font-size: 13px;
+  opacity: 0.6;
 }
 
 .settings .settings__setting {

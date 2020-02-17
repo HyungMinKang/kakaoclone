@@ -4,7 +4,7 @@
   height: 100%;
   top: 0;
   left: 0;
-  background-color: #fce006;
+  background-color: #d31145;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,8 +19,24 @@
   z-index: 4;
 }
 
-@media screen and (min-width: 600px) {
+.bigScreen__text {
+}
+@media screen and (min-width: 550px) {
   .bigScreen {
     display: flex;
+    animation: screenAni 1s linear infinite;
+  }
+}
+
+@keyframes screenAni {
+  0% {
+    transform: rotateY(30deg);
+  }
+  50% {
+    transform: none;
+  }
+
+  100% {
+    transform: rotateY(-30deg);
   }
 }
