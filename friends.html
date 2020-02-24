@@ -11,6 +11,7 @@
       integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <div class="status-bar">
@@ -21,25 +22,30 @@
         <i class="fas fa-clock"></i>
         <i class="fas fa-volume-mute"></i>
         <i class="fas fa-wifi"></i>
-        <span clas="status-bar__battery-level">75%</span>
-        <i class="fas fa-battery-three-quarters"></i>
+        <span class="status-bar__battery-level">100%</span>
+        <i class="fas fa-battery-full"></i>
       </div>
     </div>
     <header class="header">
       <div class="header__header-column">
-        <h1 class="header_title">Friends</h1>
+        <h1 class="header__title">Friends</h1>
       </div>
       <div class="header__header-column">
-        <span class="header__icon"><i class="fas fa-search"></i> </span>
-        <span class="header__icon"><i class="fas fa-cog"></i></span>
+        <span class="header__icon">
+          <i class="fas fa-search"></i>
+        </span>
+
+        <span class="header__icon">
+          <i class="fas fa-cog"></i>
+        </span>
       </div>
     </header>
     <main class="friends">
       <header class="friends__header">
-        <div class="friends__friend friend friend--lg">
+        <div class="friends__friend friend">
           <div class="friend__column">
-            <img src="images/avatar.jpeg" class="g-avatar friend_avatar" />
-            <div class="freind__content">
+            <img src="images/avatar.jpg" class="g-avatar friend__avatar" />
+            <div class="friend__content">
               <span class="friend__name">
                 Nicolas Serrano
               </span>
@@ -50,12 +56,12 @@
           </div>
         </div>
       </header>
-      <div class="friends__plus-fried">
-        <h5 class="friends__title">Plus Friend</h5>
-        <div class="friends__friend friend friend">
+      <div class="friends__plus">
+        <h5 class="friends__title">Plus friend</h5>
+        <div class="friends__friend friend">
           <div class="friend__column">
-            <img src="images/avatar.jpeg" class="g-avatar friend_avatar" />
-            <div class="freind__content">
+            <img src="images/avatar.jpg" class="friend__avatar" />
+            <div class="friend__content">
               <span class="friend__name">
                 Plus Friend
               </span>
@@ -64,11 +70,11 @@
         </div>
       </div>
       <ul class="friends__list">
-        <h5 class="friend__title">Freinds 14</h5>
+        <h5 class="friends__title">Friends 14</h5>
         <li class="friends__friend friend friend--lg">
           <div class="friend__column">
-            <div class="freind__content">
-              <img src="images/avatar.jpeg" class="g-avatar friend_avatar" />
+            <img src="images/avatar.jpg" class="friend__avatar" />
+            <div class="friend__content">
               <span class="friend__name">
                 Nicolas Serrano
               </span>
@@ -80,9 +86,9 @@
           <div class="friend__column">
             <div class="friend__now-listening">
               <span>
-                지독하게-FTISLAND(FAKETALENT ISLAND)
+                FTISLAND(FAKETALENT ISLAND)
+                <i class="fas fa-play"></i>
               </span>
-              <i class="fas fa-play"></i>
             </div>
           </div>
         </li>
@@ -91,9 +97,9 @@
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__list-item">
-          <a href="friends.html" class="nav__list-link"
-            ><i class="fas fa-user"></i
-          ></a>
+          <a href="friends.html" class="nav__list-link">
+            <i class="fas fa-user"></i>
+          </a>
         </li>
         <li class="nav__list-item">
           <a href="index.html" class="nav__list-link">
@@ -101,16 +107,19 @@
           </a>
         </li>
         <li class="nav__list-item">
-          <a href="find.html" class="nav__list-link"
-            ><i class="fas fa-search"></i
-          ></a>
+          <a href="find.html" class="nav__list-link">
+            <i class="fas fa-search"></i>
+          </a>
         </li>
         <li class="nav__list-item">
-          <a href="more.html" class="nav__list-link"
-            ><i class="fas fa-ellipsis-h"></i
-          ></a>
+          <a href="more.html" class="nav__list-link">
+            <i class="fas fa-ellipsis-h"></i>
+          </a>
         </li>
       </ul>
     </nav>
+    <div class="bigScreen">
+      <span class="bigScreen__text">Please make your screen small </span>
+    </div>
   </body>
 </html>
